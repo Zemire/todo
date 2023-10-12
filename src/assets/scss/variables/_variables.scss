@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=League+Spartan:wght@400;600;700&family=Roboto&display=swap');
+
+$font-main: 'Roboto', sans-serif;
+
+$background-main: #545454;
+$background-sub: #474747;
+$background-third: #A5A5A5;
+$background-fourth: #C3C3C3;
+$background-fifth: #FFFFFF;
+
+$text-color-main: #353535;
+$text-color-sub: #A5A5A5;
+$text-color-third: #5F5F5F;
+$text-color-fourth: #FFFFFF;
+$error-color: red;
+
+$btn-background: #519945;
+
+$header-height: 60px;
+$footer-height: 270px;
+$main-container-height: calc(100vh - $footer-height - $header-height);
+
+

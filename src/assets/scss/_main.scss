@@ -1,0 +1,46 @@
+@forward './variables/variables';
+@use './variables/variables' as *;
+
+body {
+  margin: 0;
+}
+p {
+  font-family: $font-main;
+  font-size: 12px;
+  margin: 0 0 15px;
+  color: $text-color-main;
+}
+span {
+  font-family: $font-main;
+  font-size: 12px;
+  color: $text-color-main;
+}
+
+.form-control {
+  display: flex;
+  span {
+    font-size: 14px;
+  }
+}
+.button {
+  display: flex;
+  width: 100%;
+  transition: .3s all ease-in-out;
+  cursor: pointer;
+  &[disabled] {
+    opacity: .3;
+  }
+  &.base-width {
+    width: initial;
+  }
+}
+
+.base-content-wrapper {
+  min-height: $main-container-height;
+  background-color: $background-main;
+  display: flex;
+}
+
+.error {
+  color: $error-color;
+}
